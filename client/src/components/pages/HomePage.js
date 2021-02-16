@@ -23,7 +23,7 @@ class HomePage extends Component {
                 <h2 className="HomePage-title">About Us</h2>
             </div>
 
-            <h3 className="u-sectionBorder">
+            <h3 className="u-sectionBorder HomePage-aboutusText">
                 When an individual is not able to speak English well enough to full understand the situation in different 
                 health and social settings, said individual is not able to fully communicate or make well-informed decisions. MIT 
                 Actlingual members help bridge this gap by connecting multingual and multicultural students with opportunities of service in 
@@ -41,7 +41,7 @@ class HomePage extends Component {
                     <div>
                     <div className="u-flex u-flex-justifyCenter"><text className="HomePage-subtitle">AMIC</text></div>
                         <br/>
-                        <div className="HomePage-contentText"><text>Actlingual Medical Interpreting Committee (AMIC) is working to design a 
+                        <div className="HomePage-contentTextBox"><text className="HomePage-contentText">Actlingual Medical Interpreting Committee (AMIC) is working to design a 
                         medical interpreting class to prepare MIT students to gain the certification and the experience to volunteer as 
                         medical interpreters in various clinical settings in the Boston area.</text></div>
                     </div>
@@ -51,7 +51,7 @@ class HomePage extends Component {
                     <div>
                     <div className="u-flex u-flex-justifyCenter"><text className="HomePage-subtitle">AAI Vote</text></div>
                         <br/>
-                        <div className="HomePage-contentText"> <text className="HomePage-contentText">Asian American Initiative (AAI) Vote translated different voting resources (especially 
+                        <div className="HomePage-contentTextBox"> <text className="HomePage-contentText">Asian American Initiative (AAI) Vote translated different voting resources (especially 
                         the Presidential Platforms) in order to provide information about voting to a broader audience in Fall 2020.</text></div>
                     </div>
                     <div>
@@ -65,7 +65,7 @@ class HomePage extends Component {
                     <div>
                     <div className="u-flex u-flex-justifyCenter"><text className="HomePage-subtitle">CHEDAR</text></div>
                     <br/>
-                    <div className="HomePage-contentText"><text className="HomePage-contentText">Through community health classes, Community Health, Education, and Resources (CHEDAR) aims to provide health-related information 
+                    <div className="HomePage-contentTextBox"><text className="HomePage-contentText">Through community health classes, Community Health, Education, and Resources (CHEDAR) aims to provide health-related information 
                     to targeted audiences within the Boston-area population that would benefit from a greater understanding of such issues.</text></div>
                     </div>
                     <div>
@@ -74,7 +74,7 @@ class HomePage extends Component {
                     <div>
                     <div className="u-flex u-flex-justifyCenter"><text className="HomePage-subtitle">ACC</text></div>
                     <br/>
-                    <div className="HomePage-contentText"><text className="HomePage-contentText">Actlingual Committee for Citizenship (ACC) [to be initiated] provides citizenship assistance to immigrants from a wide range of backgrounds, by creating 
+                    <div className="HomePage-contentTextBox"><text className="HomePage-contentText">Actlingual Committee for Citizenship (ACC) [to be initiated] provides citizenship assistance to immigrants from a wide range of backgrounds, by creating 
                     tutor-student pairings between multilingual MIT students and immigrants looking to take the citizenship interview.</text>
                     </div></div>
             </div>

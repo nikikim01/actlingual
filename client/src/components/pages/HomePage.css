@@ -76,7 +76,17 @@
     max-width: 45vw;
 }
 
-.HomePage-contentText{
+.HomePage-contentTextBox{
     height: 30vh;
     width: 30vw;
+}
+
+.HomePage-contentText{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.HomePage-aboutusText{
+    font-weight: 400;
+    font-size: 20px;
 }
