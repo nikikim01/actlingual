@@ -1,7 +1,7 @@
 .NavBar-logo {
     display: flex;
     align-self: center;
-    margin-left: 2vh;
+    margin-left: 3vh;
     justify-content: flex-start;
 }
 
@@ -21,7 +21,7 @@
     align-items: center;
     align-content: center;
     justify-content: flex-start;
-    margin-right: 1vh;
+    margin-right: 3vh;
 }
 
 .NavBar-link {
@@ -34,6 +34,8 @@
     font-size: 2.5vh;
     padding: 1vh;
     color: var(--darkBlue);
+    border-radius: 10px 0px 10px 0px;
+    background-color: #cae8fe;
 
 }
 

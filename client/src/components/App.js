@@ -3,7 +3,7 @@ import { Router, Location } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import NavBar from "./modules/NavBar.js";
 import HomePage from "./pages/HomePage.js";
-import AboutPage from "./pages/About.js";
+import WhoWeAre from "./pages/WhoWeAre.js";
 import "../utilities.css";
 
 // import { socket } from "../client-socket.js";
@@ -71,7 +71,7 @@ class App extends Component {
       <NavBar/>
         <Router>
           <HomePage path="/"/>
-          <AboutPage path="about"/>
+          <WhoWeAre path="/whoweare"/>
           <NotFound default />
         </Router>
         <OnRouteChange action={() => { window.scrollTo(0, 0) }} />

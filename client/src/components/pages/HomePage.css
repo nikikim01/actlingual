@@ -47,13 +47,17 @@
     border-top: none;
     border-left: none;
     border-right: none;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #cdc8ff;
 
+    padding-left: 1vh;
+    padding-right: 1vh;
     padding-top: 1vh;
 }
 
 .HomePage-subtitle {
     font-weight: 300;
-    font-size: large;
+    font-size: 20px;
 
     border-style: solid;
     border-bottom-width: thin;
@@ -67,7 +71,12 @@
 .HomePage-leftInits,
 .HomePage-rightInits{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
     max-width: 45vw;
+}
+
+.HomePage-contentText{
+    height: 30vh;
+    width: 30vw;
 }
