@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./WhoWeAre.css";
+import "../../utilities.css";
 
 class WhoWeAre extends Component {
     constructor(props){

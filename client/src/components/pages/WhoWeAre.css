@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     align-content: center;
+    background-color: rgb(224, 228, 255);
 }
 
 .WhoWeAre-bioRow{

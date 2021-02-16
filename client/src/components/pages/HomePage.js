@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./HomePage.css";
 import "../../utilities.css";
+import { Link } from "@reach/router";
+
 
 class HomePage extends Component {
     constructor(props){
@@ -20,7 +22,7 @@ class HomePage extends Component {
 
             
             <div className="HomePage-titleBox">
-                <h2 className="HomePage-title">About Us</h2>
+                <Link to="whoweare" style={{textDecoration:'none', color: 'inherit'}}><h2 className="HomePage-title">About Us</h2></Link>
             </div>
 
             <h3 className="u-sectionBorder HomePage-aboutusText">
