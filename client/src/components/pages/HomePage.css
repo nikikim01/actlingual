@@ -1,0 +1,65 @@
+.HomePage-container {
+    background-size: cover;
+    background-color: var(--darkGreen);
+}
+
+.HomePage-quote{
+    margin: 4vh;
+    opacity: 60%;
+    display: flex;
+    background-position-x: 13em;
+    justify-content: flex-end;
+    position: absolute;
+    top: 25vh;
+    left: 6vw;
+    width: 50vw;
+    
+}
+
+.HomePage-quoteBox{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    padding-bottom: 3vh;
+
+}
+
+.HomePage-quoteImg{
+    opacity: 80%;
+    position: absolute;
+    height: 60vh;
+    right: 6vw;
+    top: 10vh;
+
+}
+
+.HomePage-titleBox {
+    display: flex;
+    justify-content: center;
+}
+
+.HomePage-title{
+    font-weight: 500;
+    font-size: 30px;
+
+    border-style: solid;
+    border-bottom: thick line #ff0000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    padding-top: 1vh;
+}
+
+.HomePage-subtitle {
+    font-weight: 300;
+    font-size: large;
+
+    border-style: solid;
+    border-bottom-width: thin;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    padding-top: 1vh;
+}
