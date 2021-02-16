@@ -43,17 +43,17 @@ class HomePage extends Component {
             </div>
 
             <div className="u-evenSplit">
-                <h3 style={{borderRight:"3px solid", paddingRight: "20vw"}}>AMIC</h3>
+                <h3 className="HomePage-subtitle">AMIC</h3>
                 
-                <h3>image here</h3>
+                <h3 style={{borderLeft:"3px solid", paddingLeft: "20vw"}}>image here</h3>
             </div>
             <div className="u-evenSplit">
                 <h3 style={{borderRight:"3px solid", paddingRight: "20vw"}}>image here</h3>
-                <h3>CHEDAR</h3>
+                <h3 className="HomePage-subtitle">CHEDAR</h3>
             </div>
             <div className="u-evenSplit">
-                <h3 style={{borderRight:"3px solid", paddingRight: "20vw"}}>AAI Vote</h3>
-                <h3>image here</h3>
+                <h2 className="HomePage-subtitle">AAI Vote</h2>
+                <h3 style={{borderLeft:"3px solid", paddingLeft: "20vw"}}>image here</h3>
             </div>
             <div className="u-evenSplit">
                 <h3 style={{borderRight:"3px solid", paddingRight: "20vw"}}>image here</h3>
