@@ -43,22 +43,43 @@ class HomePage extends Component {
             </div>
 
             <div className="u-evenSplit">
-                <h3 className="HomePage-subtitle">AMIC</h3>
-                
-                <h3 style={{borderLeft:"3px solid", paddingLeft: "20vw"}}>image here</h3>
-            </div>
-            <div className="u-evenSplit">
-                <h3 style={{borderRight:"3px solid", paddingRight: "20vw"}}>image here</h3>
-                <h3 className="HomePage-subtitle">CHEDAR</h3>
-            </div>
-            <div className="u-evenSplit">
-                <h2 className="HomePage-subtitle">AAI Vote</h2>
-                <h3 style={{borderLeft:"3px solid", paddingLeft: "20vw"}}>image here</h3>
-            </div>
-            <div className="u-evenSplit">
-                <h3 style={{borderRight:"3px solid", paddingRight: "20vw"}}>image here</h3>
-                <div className="HomePage-titleBox">
-                <h2 className="HomePage-subtitle">ACC</h2>
+                <div className="HomePage-leftInits">
+                    <div>
+                        <text className="HomePage-subtitle">AMIC</text>
+                        <br/>
+                        <text className="HomePage-contentText">Actlingual Medical Interpreting Committee (AMIC) is working to design a 
+                        medical interpreting class to prepare MIT students to gain the certification and the experience to volunteer as 
+                        medical interpreters in various clinical settings in the Boston area.</text>
+                    </div>
+                    <div>
+                        <img style={{height:"25vh", padding: "1vh"}}src="https://storage.googleapis.com/actlingual/comingsoonimage.jpg"></img>
+                    </div>
+                    <div>
+                        <text className="HomePage-subtitle">AAI Vote</text>
+                        <text className="HomePage-contentText">Asian American Initiative (AAI) Vote translated different voting resources (especially 
+                        the Presidential Platforms) in order to provide information about voting to a broader audience in Fall 2020.</text>
+                    </div>
+                    <div>
+                    <img style={{height:"25vh", padding: "1vh"}}src="https://storage.googleapis.com/actlingual/comingsoonimage.jpg"></img>
+                    </div>
+                </div>
+                <div className="HomePage-rightInits">
+                    <div>
+                    <img style={{height:"25vh", padding: "1vh"}}src="https://storage.googleapis.com/actlingual/comingsoonimage.jpg"></img>
+                    </div>
+                    <div>
+                    <text className="HomePage-subtitle">CHEDAR</text>
+                    <text className="HomePage-contentText">Through community health classes, Community Health, Education, and Resources (CHEDAR) aims to provide health-related information 
+                    to targeted audiences within the Boston-area population that would benefit from a greater understanding of such issues.</text>
+                    </div>
+                    <div>
+                    <img style={{height:"25vh", padding: "1vh"}}src="https://storage.googleapis.com/actlingual/comingsoonimage.jpg"></img>
+                    </div>
+                    <div>
+                    <text className="HomePage-subtitle">ACC</text>
+                    <text className="HomePage-contentText">Actlingual Committee for Citizenship (ACC) [to be initiated] provides citizenship assistance to immigrants from a wide range of backgrounds, by creating 
+                    tutor-student pairings between multilingual MIT students and immigrants looking to take the citizenship interview.</text>
+                    </div>
             </div>
             </div>
             <div className="HomePage-titleBox">
