@@ -51,14 +51,17 @@ class WhoWeAre extends Component {
                  <img style={{height:"25vh", padding: "1vh", display: "block", marginLeft:"auto", marginRight:"auto"}}src="https://storage.googleapis.com/actlingual/Lulu_Tian_ACC_Leader.png"></img>
                 <text style={{marginBottom: "1vh"}}>Lulu Tian</text>
                 <text>ACC Leader</text>
+                </div>                  <div className='WhoWeAre-bioContainer' style={{display:'flex', flexDirection:'column'}}>
+                <img style={{height:"25vh", padding: "1vh", display: "block", marginLeft:"auto", marginRight:"auto"}}src="https://storage.googleapis.com/actlingual/Bhav_Jain_CHEDAR_Leader.png"></img>
+                <text style={{marginBottom: "1vh"}}>Bhav Jain</text>
+                <text style={{marginBottom: "1vh"}}>CHEDAR Leader</text>
                 </div>
-                
             </div>
             <div className="WhoWeAre-bioRow">
             <div className='WhoWeAre-bioContainer' style={{display:'flex', flexDirection:'column'}}>
-                 <img style={{height:"25vh", padding: "1vh", display: "block", marginLeft:"auto", marginRight:"auto"}}src="https://storage.googleapis.com/actlingual/Bhav_Jain_CHEDAR_Leader.png"></img>
-                <text style={{marginBottom: "1vh"}}>Bhav Jain</text>
-                <text style={{marginBottom: "1vh"}}>CHEDAR Leader</text>
+                 <img style={{height:"25vh", padding: "1vh", display: "block", marginLeft:"auto", marginRight:"auto"}}src="https://storage.googleapis.com/actlingual/Westley_Wenbo_Wu_Publicity_Chair_and_CHEDAR_Leader.png"></img>
+                <text style={{marginBottom: "1vh"}}>Westley Wenbo Wu</text>
+                <text style={{marginBottom: "1vh"}}>CHEDAR Leader | Publicity Chair</text>
                 </div>                 <div className='WhoWeAre-bioContainer' style={{display:'flex', flexDirection:'column'}}>
                  <img style={{height:"25vh", padding: "1vh", display: "block", marginLeft:"auto", marginRight:"auto"}}src="https://storage.googleapis.com/actlingual/Jessica_Jimenez_ACC_Leader.png"></img>
                 <text style={{marginBottom: "1vh"}}>Jessica Jimenez</text>
