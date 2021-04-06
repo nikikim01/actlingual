@@ -1,49 +1,48 @@
 .NavBar-logo {
-    display: flex;
-    align-self: center;
-    margin-left: 3vh;
-    justify-content: flex-start;
+  display: flex;
+  align-self: center;
+  margin-left: 3vh;
+  justify-content: flex-start;
 }
 
 .NavBar-container {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-
 .NavBar-buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: flex-start;
-    margin-right: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  margin-right: 3vh;
 }
 
 .NavBar-link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 2.5vh;
-    padding: 1vh;
-    color: var(--darkBlue);
-    border-radius: 10px 0px 10px 0px;
-    background-color: #cae8fe;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2.5vh;
+  padding: 1vh;
+  margin: 0.5vh;
+  color: var(--darkBlue);
+  border-radius: 10px 0px 10px 0px;
+  background-color: #cae8fe;
 }
 
 .NavBar-link:hover {
-    color: white;
-    background: rgb(15,117,188);
-    background: -moz-radial-gradient(circle, rgba(15,117,188,1) 0%, rgba(40,56,145,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(15,117,188,1) 0%, rgba(40,56,145,1) 100%);
-    background: radial-gradient(circle, rgba(15,117,188,1) 0%, rgba(40,56,145,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f75bc",endColorstr="#283891",GradientType=1);
+  color: white;
+  background: rgb(15, 117, 188);
+  background: -moz-radial-gradient(circle, rgba(15, 117, 188, 1) 0%, rgba(40, 56, 145, 1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(15, 117, 188, 1) 0%, rgba(40, 56, 145, 1) 100%);
+  background: radial-gradient(circle, rgba(15, 117, 188, 1) 0%, rgba(40, 56, 145, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f75bc",endColorstr="#283891",GradientType=1);
 }
