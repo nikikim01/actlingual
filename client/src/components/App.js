@@ -5,6 +5,8 @@ import NavBar from "./modules/NavBar.js";
 import HomePage from "./pages/HomePage.js";
 import WhoWeAre from "./pages/WhoWeAre.js";
 import ProgressPage from "./pages/ProgressPage.js";
+import AMIC from "./pages/AMIC.js";
+import ACC from "./pages/ACC.js";
 import "../utilities.css";
 
 // import { socket } from "../client-socket.js";
@@ -72,6 +74,8 @@ class App extends Component {
           <HomePage path="/" />
           <WhoWeAre path="/whoweare" />
           <ProgressPage path="/progress" />
+          <AMIC path="/amic" />
+          <ACC path="/acc" />
           <NotFound default />
         </Router>
         <OnRouteChange

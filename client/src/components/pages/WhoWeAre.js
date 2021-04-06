@@ -111,9 +111,6 @@ class WhoWeAre extends Component {
             <text style={{ marginBottom: "1vh" }}>Silvia Cho</text>
             <text>Secretary</text>
           </div>
-        </div>
-
-        <div className="WhoWeAre-bioRow">
           <div
             className="WhoWeAre-bioContainer"
             style={{ display: "flex", flexDirection: "column" }}
@@ -182,8 +179,6 @@ class WhoWeAre extends Component {
             <text style={{ marginBottom: "1vh" }}>Jessica Jimenez</text>
             <text>ACC Leader</text>
           </div>
-        </div>
-        <div className="WhoWeAre-bioRow">
           <div
             className="WhoWeAre-bioContainer"
             style={{ display: "flex", flexDirection: "column" }}

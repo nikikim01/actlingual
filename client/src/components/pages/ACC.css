@@ -1,13 +1,20 @@
-.WhoWeAre-bioContainer {
+.ACC-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ACC-bioContainer {
   border-radius: 15px 0px 15px 0px;
   display: flex;
   align-items: center;
   align-content: center;
+
   background-color: rgb(224, 228, 255);
   margin: 0.5vh;
 }
 
-.WhoWeAre-bioRow {
+.ACC-bioRow {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -15,6 +22,7 @@
   margin-bottom: 1vh;
 }
 
-.WhoWeAre-text {
-  font-weight: 500;
+.ACC-container {
+  display: flex;
+  flex-direction: column;
 }
