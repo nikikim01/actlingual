@@ -59,16 +59,18 @@ class HomePage extends Component {
               </div>
             </div>
             <div>
-              <img
-                style={{
-                  height: "25vh",
-                  padding: "1vh",
-                  display: "block",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                }}
-                src="https://storage.googleapis.com/actlingual/comingsoonimage.jpg"
-              ></img>
+              <a href="/chedar">
+                <img
+                  style={{
+                    height: "25vh",
+                    padding: "1vh",
+                    display: "block",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                  }}
+                  src="https://storage.googleapis.com/actlingual/comingsoonimage.jpg"
+                ></img>
+              </a>
             </div>
             <div>
               <div className="u-flex u-flex-justifyCenter">
@@ -85,16 +87,18 @@ class HomePage extends Component {
               </div>
             </div>
             <div>
-              <img
-                style={{
-                  height: "25vh",
-                  padding: "1vh",
-                  display: "block",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                }}
-                src="https://storage.googleapis.com/actlingual/comingsoonimage.jpg"
-              ></img>
+              <a href="/acc">
+                <img
+                  style={{
+                    height: "25vh",
+                    padding: "1vh",
+                    display: "block",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                  }}
+                  src="https://storage.googleapis.com/actlingual/comingsoonimage.jpg"
+                ></img>
+              </a>
             </div>
           </div>
           <div className="HomePage-rightInits">
