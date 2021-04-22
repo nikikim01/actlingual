@@ -109,6 +109,19 @@ class ACC extends Component {
             ></img>
             <text style={{ marginBottom: "1vh" }}>Sky Kim</text>
           </div>
+          <div className="AMIC-bioContainer" style={{ display: "flex", flexDirection: "column" }}>
+            <img
+              style={{
+                height: "25vh",
+                padding: "1vh",
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+              src="https://storage.googleapis.com/actlingual/Amanda.png"
+            ></img>
+            <text style={{ marginBottom: "1vh" }}>Amanda Mei</text>
+          </div>
         </div>
         <h3>
           ACC began work in Fall of 2020, focusing on identifying partners and opportunities for
