@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0 4em;
+  counter-reset: msg 6;
 }
 
 .ProgressPage-container {
@@ -23,12 +24,13 @@ body {
   border-width: 3px;
   margin: 0;
   padding: 40px;
-  counter-increment: section;
   position: relative;
   color: #34435e;
 }
+
 .ProgressPage-body:before {
-  content: counter(section);
+  counter-increment: msg -1;
+  content: counter(msg);
   position: absolute;
   border-radius: 50%;
   padding: 10px;

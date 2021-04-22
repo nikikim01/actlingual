@@ -12,20 +12,17 @@ class ProgressPage extends Component {
     return (
       <main className="ProgressPage-container">
         <p className="ProgressPage-body">
-          <b className="ProgressPage-title">September 20??</b>
+          <b className="ProgressPage-title">April 2021</b>
           <br />
-          MedLingual was created.
+          As a part of this program that we have that I need a description of, 12 people were
+          certified with a specific type of certification.
         </p>
         <p className="ProgressPage-body">
-          <b className="ProgressPage-title">October 20??</b>
+          <b className="ProgressPage-title">March 2021</b>
           <br />
-          MedLingual rebranded to ActLingual because of yada yada yada.
+          Something else happened - what event did we have?
         </p>
-        <p className="ProgressPage-body">
-          <b className="ProgressPage-title">December 20??</b>
-          <br />
-          This new committee was made because...
-        </p>
+
         <p className="ProgressPage-body">
           <b className="ProgressPage-title">March 2021</b>
           <br />
@@ -33,15 +30,19 @@ class ProgressPage extends Component {
           COOP.
         </p>
         <p className="ProgressPage-body">
-          <b className="ProgressPage-title">March 2021</b>
+          <b className="ProgressPage-title">December 20??</b>
           <br />
-          Something else happened - what event did we have?
+          This new committee was made because...
         </p>
         <p className="ProgressPage-body">
-          <b className="ProgressPage-title">April 2021</b>
+          <b className="ProgressPage-title">October 20??</b>
           <br />
-          As a part of this program that we have that I need a description of, 12 people were
-          certified with a specific type of certification.
+          MedLingual rebranded to ActLingual because of yada yada yada.
+        </p>
+        <p className="ProgressPage-body">
+          <b className="ProgressPage-title">September 20??</b>
+          <br />
+          MedLingual was created.
         </p>
       </main>
     );
