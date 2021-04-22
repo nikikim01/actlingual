@@ -38,7 +38,9 @@ class HomePage extends Component {
         </h3>
 
         <div className="HomePage-titleBox">
-          <h2 className="HomePage-title">Current Initiatives</h2>
+          <h2 id="currentInitiatives" className="HomePage-title">
+            Current Initiatives
+          </h2>
         </div>
 
         <div className="u-evenSplit">
@@ -46,7 +48,9 @@ class HomePage extends Component {
             <div>
               <div className="u-flex u-flex-justifyCenter">
                 <text className="HomePage-subtitle">
-                  <a href="/amic">AMIC</a>
+                  <a href="/amic" id="amic">
+                    AMIC
+                  </a>
                 </text>
               </div>
               <br />
@@ -74,7 +78,9 @@ class HomePage extends Component {
             </div>
             <div>
               <div className="u-flex u-flex-justifyCenter">
-                <text className="HomePage-subtitle">AAI Vote</text>
+                <text className="HomePage-subtitle" id="aaiVote">
+                  AAI Vote
+                </text>
               </div>
               <br />
               <div className="HomePage-contentTextBox">
@@ -118,7 +124,9 @@ class HomePage extends Component {
             </div>
             <div>
               <div className="u-flex u-flex-justifyCenter">
-                <text className="HomePage-subtitle">CHEDAR</text>
+                <text className="HomePage-subtitle" id="chedar">
+                  CHEDAR
+                </text>
               </div>
               <br />
               <div className="HomePage-contentTextBox">
@@ -147,7 +155,9 @@ class HomePage extends Component {
             <div>
               <div className="u-flex u-flex-justifyCenter">
                 <text className="HomePage-subtitle">
-                  <a href="/acc">ACC</a>
+                  <a href="/acc" id="acc">
+                    ACC
+                  </a>
                 </text>
               </div>
               <br />

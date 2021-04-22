@@ -29,6 +29,17 @@ class NavBar extends Component {
             <Link to="/progress" className="NavBar-link">
               Progress
             </Link>
+            <div className="NavBar-dropdown">
+              <a href="#currentInitiatives" className="NavBar-dropbtn">
+                Initiatives
+              </a>
+              <div className="NavBar-dropdown-content">
+                <a href="/amic">AMIC</a>
+                <a href="/#chedar">CHEDAR</a>
+                <a href="/#aaiVote">AAI Vote</a>
+                <Link to="/acc">ACC</Link>
+              </div>
+            </div>
             <Link to="/whoweare" className="NavBar-link">
               Who We Are
             </Link>

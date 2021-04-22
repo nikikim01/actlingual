@@ -212,7 +212,7 @@ class WhoWeAre extends Component {
             ></img>
             <text style={{ marginBottom: "1vh" }}>Sky Kim</text>
             <text>Social Chair</text>
-          </div>{" "}
+          </div>
           <div
             className="WhoWeAre-bioContainer"
             style={{ display: "flex", flexDirection: "column" }}
